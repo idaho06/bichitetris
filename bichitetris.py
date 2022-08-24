@@ -752,4 +752,4 @@ while not done:
 pg.quit()
 sys.exit()
 
-# pyinstaller.exe --add-data="img;img" --add-data="snd;snd" --add-data="font;font" --icon=bichitetris.ico -w .\bichitetris.py
+# pyinstaller.exe --add-data="README.md;." --add-data="img;img" --add-data="snd;snd" --add-data="font;font" --icon=bichitetris.ico -w .\bichitetris.py
