@@ -145,9 +145,9 @@ def get_next_piece():
 def detect_full_rows():
     global board
     full_rows = []
-    for row in board:
+    for index, row in enumerate(board):
         if 0 not in row:
-            full_rows.insert(0, board.index(row))
+            full_rows.insert(0, index)
     return full_rows
 
 
